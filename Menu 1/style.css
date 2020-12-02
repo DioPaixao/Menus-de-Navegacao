@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, p, a, button {
+    text-decoration: none;
+    font-family: "JetBrains Mono";
+    list-style: none;
+}
+
+html, body {
+    background-color: rgb(36, 33, 33);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+/* menu de navegação */
+
+.nav__links {
+    margin-right: 50px;
+}
+
+.nav__links li {
+    display: inline-block; 
+    margin: 0 20px; 
+}
+
+.nav__links li a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(9, 122, 9);
+}
+
+/* BOTAO */
+
+.botao button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.botao button:hover {
+    background-color: rgb(9, 122, 9);
+    color: white;
+}

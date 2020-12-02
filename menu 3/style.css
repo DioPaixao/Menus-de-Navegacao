@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono";
+}
+
+html, body {
+    height: 100%;
+}
+
+a, ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+
+    background-color: rgb(36, 33, 33);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+.nav__links li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav__links li a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(9, 122, 9);
+}
+
+/* BOTAO */
+
+.botao {
+    color: rgb(9, 122, 9);
+    padding: 10px 40px;
+    border: solid rgb(9, 122, 9) 1px;
+    border-radius: 20px;
+    transition: 0.3s ease 0s;
+}
+
+.botao:hover {
+    color: black;
+    background-color: white;
+    border: none;
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono";
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+img {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav__links {
+    margin-left: 50px;
+}
+
+.nav__links li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav__links li a {
+    font-size: 18px;
+    color: black;
+    padding: 0 3px;
+    transition: 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    border-bottom: solid black 1px;
+}
+
+/* BOTAO */
+
+.botao {
+    margin-left: auto;
+
+    color: black;
+    padding: 10px 40px;
+    font-size: 17px;
+    border: solid black 1px;
+    border-radius: 20px;
+    transition: 0.3s ease 0s;
+}
+
+.botao:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
